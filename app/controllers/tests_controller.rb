@@ -67,7 +67,7 @@ class TestsController < ApplicationController
       
       g.add('app/controllers/tests_controller.rb')
 
-      g.commit('change test_controller')
+      g.commit('dsadas')
 
       g.push('origin')
    end
