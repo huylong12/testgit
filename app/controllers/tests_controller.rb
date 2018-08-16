@@ -69,7 +69,7 @@ class TestsController < ApplicationController
 
       g.commit('dsadas')
 
-      g.push(remote = 'origin', branch = 'master')
+      g.push(g.remote('sadasd'))
    end
 
   #  def write_git
