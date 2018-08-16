@@ -64,7 +64,7 @@ class TestsController < ApplicationController
    def read_git
      
       g = Git.open(working_dir = '\Sites\testgit', :log => Logger.new(STDOUT))
-      
+      debugger
       g.add('app/controllers/tests_controller.rb')
 
       g.commit('dsadas')
